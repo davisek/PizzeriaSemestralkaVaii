@@ -42,4 +42,20 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
+    // Relationship With Reviews One to One
+    public function review() {
+        return $this->hasOne(Review::class);
+    }
+
+    // Relationship With Roles One to Many(Inverse)
+    public function role() {
+        return $this->belongsTo(Role::class);
+    }
+
+    // Relationship With Favorites One To Many
+    public function favorites() {
+        return $this->hasMany(Favorite::class);
+    }
+
 }
