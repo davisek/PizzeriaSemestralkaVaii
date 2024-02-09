@@ -38,7 +38,6 @@ class ReviewController extends Controller
         $inputs['date'] = new DateTime();
 
         Review::create($inputs);
-
         return redirect('/reviews');
     }
 }

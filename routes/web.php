@@ -27,11 +27,17 @@ Route::get('/services', [PizzaController::class, 'servicesPage']);
 // Theme Dynamic Pages
 // All Pizzas
 Route::get('/daily_menu', [PizzaController::class, 'index']);
-// Get Favorite Pizzas
+// All Not Favorite Pizza
+Route::get('/api/pizzas', [PizzaController::class, 'allNotFavorite'])->middleware('auth');
+// Index Favorite Pizzas
 Route::get('/favorites', [FavoriteController::class, 'index'])->middleware('auth');
+// Get Favorite Pizzas
+Route::get('/api/favorites', [FavoriteController::class, 'favoritePizzas'])->middleware('auth');
 // Delete Favorite Pizza
 Route::delete('/favorites/{favorite}', [FavoriteController::class, 'destroy'])->middleware('auth');
-// All Not Favorite Pizza
+// Store Favorite Pizza
+Route::post('/api/storeFavoritePizza', [FavoriteController::class, 'store']);
+
 
 
 // Get All Reviews

@@ -27,16 +27,10 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <form action="../../phpController/phpController.php" method="post">
-                        <div class="modal-body">
-                            <select name="pizza" class="form-control" required>
-                                <option value=""></option>
-                            </select>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Zavrieť</button>
-                            <input value="Pridať pizzu" name="add" type="submit" class="btn btn-success">
-                        </div>
+                    <form>
+                    @csrf
+                    @method('POST')
+                    <add-favorite-pizza-modal></add-favorite-pizza-modal>
                     </form>
                 </div>
             </div>

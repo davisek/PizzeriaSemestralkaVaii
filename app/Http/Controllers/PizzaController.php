@@ -22,4 +22,9 @@ class PizzaController extends Controller
         $pizzas = Pizza::all();
         return view('pizzas.index', ['pizzas' => $pizzas]);
     }
+
+    // All Not Favorite Pizzas
+    public function allNotFavorite() {
+        return Pizza::all();
+    }
 }

@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Favorite extends Model
 {
+    public $timestamps = false;
     use HasFactory;
 
     // Relationship With Users One to Many(Inverse)
