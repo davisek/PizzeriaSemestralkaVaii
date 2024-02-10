@@ -1,7 +1,7 @@
 @extends('layout')
-
+@section('title', 'Denne Menu')
+@include('partials/_nav')
 @section('content')
-<x-nav />
 <div class="pizzaMenu container-fluid" id="app">
     <div class="text-center py-4">
         <h2 class="mb-3">DENNÉ MENU</h2>
@@ -15,7 +15,7 @@
         @if($count > 6)
             @break
         @endif
-        <x-pizza-today :pizza="$pizza" :count="$count" />
+        <x-common.pizza-today :pizza="$pizza" :count="$count" />
         @endforeach
     </div>
 
@@ -26,7 +26,7 @@
         <div class="row priceMenu">
 
             @foreach($pizzas as $pizza)
-            <x-pizza-complet :pizza="$pizza" />
+            <x-common.pizza-complet :pizza="$pizza" />
             @endforeach
         </div>
     </div>

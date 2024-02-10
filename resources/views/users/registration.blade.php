@@ -1,5 +1,5 @@
 @extends('layout')
-
+@section('title', 'Registrácia')
 @section('content')
     <section id="loginPagePizza">
         <div class="container d-flex justify-content-center text-center p-5">

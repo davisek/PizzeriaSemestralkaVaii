@@ -1,7 +1,7 @@
 @extends('layout')
-
+@section('title', 'Sluzby')
+@include('partials/_nav')
 @section('content')
-<x-nav />
 <div class="service container-fluid pb-5">
     <div class="text-center pt-5">
         <h2 class="mb-4">NAŠE SLUŽBY</h2>

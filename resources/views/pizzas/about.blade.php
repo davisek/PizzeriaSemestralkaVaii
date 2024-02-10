@@ -1,7 +1,7 @@
 @extends('layout')
-
+@section('title', 'O Nas')
+@include('partials/_nav')
 @section('content')
-<x-nav />
 <div id="aboutUs" class="aboutUs container-fluid">
     <div class="row">
         <div class="col-lg-5 aboutUsImg py-5">

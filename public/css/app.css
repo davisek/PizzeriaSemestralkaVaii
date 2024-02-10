@@ -220,6 +220,10 @@ button {
     width: 100%;
 }
 
+#favoritePizzas .favoriteCard {
+    width: 18rem;
+}
+
 /* Reviews page */
 
 #review {
@@ -239,7 +243,7 @@ button {
 
 /* Admin page */
 
-#adminPage, #userPage {
+#adminPage {
     color: #F0E3CA;
 }
 .sideBar {
@@ -278,6 +282,39 @@ button {
 }
 .sideBar hr {
     background-color: #FF8303;
+}
+
+/* Admin Edit Pizza */
+
+#editPizza {
+    color: #1B1A17;
+}
+#editPizza p {
+    font-size: 1em;
+    color: #1B1A17;
+}
+#editPizza img {
+    width: 150px;
+}
+#editPizza form {
+    border: 2px solid #FF8303;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Admin Add User */
+
+#addNewUser {
+    color: #1B1A17;
+}
+#addNewUser p {
+    font-size: 1em;
+    color: #1B1A17;
+}
+#addNewUser form {
+    border: 2px solid #FF8303;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 /* Login page Admin */

@@ -43,11 +43,6 @@ class User extends Authenticatable
         'password' => 'hashed',
     ];
 
-    // Relationship With Reviews One to One
-    public function review() {
-        return $this->hasOne(Review::class);
-    }
-
     // Relationship With Roles One to Many(Inverse)
     public function role() {
         return $this->belongsTo(Role::class);

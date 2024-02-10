@@ -1,5 +1,6 @@
 @extends('layout')
-<x-nav />
+@section('title', 'Nastavenia')
+@include('partials/_nav')
 @section('content')
 <section id="settings">
     <div class="container p-5">

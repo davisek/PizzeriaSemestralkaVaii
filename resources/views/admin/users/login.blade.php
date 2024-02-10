@@ -4,12 +4,8 @@
 <section id="loginPagePizza">
     <div class="container d-flex justify-content-center text-center p-5">
         <div class="loginForm">
-            <div class="mb-3 mx-5">
-                <a href="/login" class="btn btn-warning btn-md" role="button">Prihlásenie</a>
-                <a href="/registration" class="btn btn-secondary btn-md" role="button">Registrácia</a>
-            </div>
             <h3>Login formulár</h3>
-            <form class="mt-3" method="POST" action="/authenticate">
+            <form class="mt-3" method="POST" action="/authenticateAdmin">
                 @csrf
                 <div class="form-group">
                     <label for="email" class="text-white">Email adresa</label>
@@ -19,7 +15,9 @@
                            placeholder="Zadaj email"
                            value="{{old('email')}}">
                     @error('email')
-                    <div role='alert' class="alert alert-danger in center"> {{$message}} </div>
+                    <div id='alert'>
+                        <div role='alert' class="alert alert-danger in center"> {{$message}} </div>
+                    </div>
                     @enderror
                 </div>
                 <div class="form-group">
@@ -30,7 +28,9 @@
                            placeholder="Zadaj heslo"
                            value="{{old('password')}}">
                     @error('password')
-                    <div role='alert' class="alert alert-danger in center"> {{$message}} </div>
+                    <div id='alert'>
+                        <div role='alert' class="alert alert-danger in center"> {{$message}} </div>
+                    </div>
                     @enderror
                 </div>
                 <button type="submit" class="btn btn-success">Prihlásiť sa</button>

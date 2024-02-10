@@ -52,8 +52,8 @@
                 <p>Ponúkame až 27 druhov pizze v troch veľkostiach podľa Vášho <br> výberu,
                     veľká(štandardná), malá a maxi. Pripravujeme aj špeciálnu <br> bezlepkovú pizzu.</p>
                 <div>
-                    <button class="mr-3 mb-3">Objednať</button>
-                    <button>Denné menu</button>
+                    <a href="/services"><button class="mr-3 mb-3">Objednať</button></a>
+                    <a href="/daily_menu"><button>Denné menu</button></a>
                 </div>
             </div>
             <div class="col-lg-5 d-flex justify-content-lg-start justify-content-center">
