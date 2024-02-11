@@ -1,0 +1,341 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+p, span {
+    color: darkgrey;
+    font-size: 0.8em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.5em;
+    color: #F0E3CA;
+}
+
+/* Domov */
+
+.info a {
+    text-decoration: none!important;
+}
+.info {
+    background-color: #000;
+}
+i {
+    color: #FF8303;
+    font-size: 15px;
+}
+.navbarMenu {
+    background-color: #1B1A17;
+}
+.navbarMenu img {
+    width: 70px;
+}
+.navbarMenu a {
+    color: #F0E3CA!important;
+    font-size: 1em;
+    margin-left: 5px;
+}
+.navbarMenu a:hover {
+    color: #FF8303!important;
+}
+.navLogo span {
+    font-size: 20px;
+    margin-left: -15px;
+    height: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #F0E3CA;
+}
+.navLogo p {
+    color: #FF8303;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: -10px;
+    margin-left: 15px;
+}
+.prihlasenie {
+    border: 1px solid #FF8303;
+    border-radius: 10px;
+}
+.mainPage {
+    background-image: url("../images/bg_1.jpg");
+    color: #F0E3CA;
+}
+.mainPage h2 {
+    color: #FF8303;
+    font-family: Lucida Handwriting, cursive;
+    font-weight: lighter;
+}
+.mainPage p {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #F0E3CA;
+}
+button {
+    border: 1px #FF8303 solid;
+    color: #FF8303;
+    background-color: transparent;
+    padding: 10px 20px;
+}
+.contact {
+    background-color: #000;
+}
+.contactInfo {
+    font-size: 1.1em;
+}
+.contactInfo span {
+    color: #F0E3CA;
+    font-weight: bold;
+}
+
+/* O nás */
+
+.aboutUsImg {
+    background-image: url("../images/about.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.aboutUsText {
+    background-image: url("../images/bg_4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.aboutUsText p {
+    font-size: 1em;
+    line-height: 25px;
+}
+.aboutUsText img {
+    width: 30px;
+}
+.aboutUsText span {
+    font-size: 1em;
+    color: #FF8303;
+}
+.footer {
+    background-color: #000;
+}
+
+/* Služby */
+
+.service {
+    background-image: url("../images/food.png");
+}
+.service h3 {
+    font-size: 1.2em;
+    color: #1B1A17;
+}
+.service p {
+    font-size: 1em;
+    color: #1B1A17;
+}
+.services img {
+    width: 100px;
+    border: 1px #FF8303 solid;
+    padding: 20px;
+}
+
+/* Denné menu */
+
+.pizzaMenu {
+    background-image: url("../images/bg_4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pizzaMenu p {
+    font-size: 1em;
+}
+.pizzaBg {
+    background-image: url("../images/b4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+.pizzaInfo {
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+}
+.pizzaMenu img {
+    width: 220px;
+}
+.pizzaMenu h3 {
+    font-size: 1.2em;
+}
+.pizzaMenu h2 {
+    color: #F0E3CA;
+}
+.price {
+    color: #FF8303;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+.ourPrices img {
+    width: 80px;
+}
+.priceMenu p b {
+    color: #FF8303;
+    font-size: 1.2em;
+}
+.priceMenu p {
+    font-size: 0.8em;
+}
+
+/* Login page theme */
+
+#loginPagePizza {
+    background-image: url("../images/bg_4.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+#logoutPizza a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#settings {
+    background-image: url("../images/bg_4.jpg");
+    min-height: 70vh;
+    background-repeat: no-repeat;
+}
+#settings form {
+    border: 2px solid #FF8303;
+    border-radius: 10px;
+    background-color: #1B1A17;
+    color: #F0E3CA;
+}
+
+/* Favorite pizzas page */
+
+#favoritePizzas {
+    background-image: url("../images/bg_4.jpg");
+    min-height: 50vh;
+    background-repeat: no-repeat;
+}
+#favoritePizzas img {
+    width: 150px;
+}
+#favoritePizzas .card form input {
+    width: 100%;
+}
+
+#favoritePizzas .favoriteCard {
+    width: 18rem;
+}
+
+/* Reviews page */
+
+#review {
+    background-image: url("../images/bg_4.jpg");
+    min-height: 50vh;
+    background-repeat: no-repeat;
+}
+.reviewInput {
+    width: 100%;
+    background-color: #1B1A17;
+    border: 1px solid #FF8303;
+    color: #F0E3CA;
+}
+.reviewInput:focus {
+    outline: none;
+}
+
+/* Admin page */
+
+#adminPage {
+    color: #F0E3CA;
+}
+.sideBar {
+    background-color: #1B1A17;
+    height: 100vh;
+}
+.sideBar h1 {
+    font-size: 1.5em;
+}
+.sideBar h3 {
+    font-size: 1em;
+}
+#adminPage h2 {
+    color: #1B1A17;
+    font-size: 1em;
+}
+.pizzaRow {
+    border-bottom: 1px solid darkgrey;
+}
+.addInput {
+    width: 100%;
+    margin-bottom: 10px;
+}
+#add input[type=file] {
+    color: #1B1A17;
+}
+#pizzaList img {
+    width: 60px;
+}
+#userList p {
+    font-size: 1em;
+}
+.userListHeader h2 {
+    font-size: 1em;
+    color: #000;
+}
+.sideBar hr {
+    background-color: #FF8303;
+}
+
+/* Admin Edit Pizza */
+
+#editPizza {
+    color: #1B1A17;
+}
+#editPizza p {
+    font-size: 1em;
+    color: #1B1A17;
+}
+#editPizza img {
+    width: 150px;
+}
+#editPizza form {
+    border: 2px solid #FF8303;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Admin Add User */
+
+#addNewUser {
+    color: #1B1A17;
+}
+#addNewUser p {
+    font-size: 1em;
+    color: #1B1A17;
+}
+#addNewUser form {
+    border: 2px solid #FF8303;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Login page Admin */
+
+#loginPage {
+    background-image: url("../images/bg_4.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.loginForm {
+    border: 2px solid #FF8303;
+    padding: 20px;
+    border-radius: 5px;
+}
+.loginForm p {
+    font-size: 1em;
+}
+.loginForm input {
+    color: #F0E3CA;
+}
+#logoutAdmin a {
+    text-decoration: none;
+    color: #fff;
+}
