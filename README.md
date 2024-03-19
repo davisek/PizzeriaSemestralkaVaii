@@ -18,4 +18,4 @@ Autor kódu: Dávid Barta
 - Otvorte aplikáciu vo webovom prehliadači: http://localhost:8000
 - Môžete si zaregistrovať užívateľa, alebo bol vytvorený admin, ktorý má prístup k ADMIN PAGE
 - K ADMIN PAGE sa dostanete linkom http://localhost:8000/admin/login a prihlasovacie údaje pre admina sú:
-  - Email: `admin@admin.com` a Heslo: `123456`
+  - Email: `admin@admin.com` a Heslo: `123456`, kde môžete vykonávať CRUD operácie nad pizzami a užívateľmi.
